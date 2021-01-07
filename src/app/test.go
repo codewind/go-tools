@@ -1,5 +1,9 @@
 package app
 
+import (
+	_ "fmt"
+)
+
 func GetStrTest(put string) string {
-	return fmt.Println("just watching:", put)
+	return put
 }
